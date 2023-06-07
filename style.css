@@ -1,0 +1,28 @@
+
+*{
+    opacity: 0.2;
+    filter: blur(6px);
+}
+body{
+    background-image: url(images/Capture.PNG);
+    background-size: cover;
+   
+    /* position: relative; */
+
+}
+/* .mainSection{
+    position: absolute;
+    background-color: blue;
+} */
+/* .rowDiv{
+    position: relative;
+}
+.sliderContainer{
+    position: absolute;
+    background-color: red;
+   
+} */
+/* .sliderContainer{
+    position: absolute;
+    background-color: black;
+} */
