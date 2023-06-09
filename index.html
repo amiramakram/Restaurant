@@ -16,16 +16,27 @@
 </head>
 <body>
     <div class="overlay"></div>
-    <div class="img">
-        <img src="images/2.PNG" alt="" width="130vw" class="imgLogo" height="130vh">
-    </div>
     <div class="content">
         <section class="firstSection">
             <div class="container">
-                <div class="d-flex justify-content-center pt-5 "><p class="text">
+              <div class="row d-flex justify-content-center">
+                <div id="inputContainer" class="myInput col-md-6 col-12 mt-4 row" >
+                  <div class="col-12 d-flex justify-content-between">
+                    <img src="images/2.PNG" alt="" width="130vw" class="photo" height="30vh">
+                    <i class="fa-sharp fa-solid fa-share-nodes text-black  "  style="margin-top: 10px;font-size: 35px;"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="img">
+                <img src="images/2.PNG" alt="" width="130vw" class="imgLogo" height="130vh">
+            </div>
+                <div class="d-flex justify-content-center pt-5 ">
+                  <p class="text">
                     عروض التوفير
-                </p></div>
-                <div class="row d-flex justify-content-center">
+                </p>
+              </div>
+                <div class="row d-flex justify-content-center containing">
                     <div id="carouselExample" class="  carousel slide col-md-7 col-12 pt-5" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
@@ -126,7 +137,7 @@
         </section>
     </div>
 
-
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
