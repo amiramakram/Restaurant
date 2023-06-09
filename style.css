@@ -73,6 +73,8 @@ body {
 /* second section */
 .contacts{
     height: 4rem;
+    justify-content: space-between;
+    align-items: center;
 }
 .containing{
     position: relative;
